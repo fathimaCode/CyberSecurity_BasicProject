@@ -1,0 +1,1 @@
+Understanding of Python’s random and string libraries, and password security basics.  
