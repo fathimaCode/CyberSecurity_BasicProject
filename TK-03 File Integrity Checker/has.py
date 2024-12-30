@@ -13,7 +13,7 @@ pwd=int(input("Enter the length of password here:"))
 password=generate_password_conditions(pwd)
 print("Password Generated:",password)
 import hashlib
-data="I am intern student of cybersecurity"
+data=password
 hash_obj1=hashlib.sha256(data.encode())
 hex_str1=hash_obj1.hexdigest()
 print(hex_str1)
